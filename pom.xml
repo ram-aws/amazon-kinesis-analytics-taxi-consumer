@@ -90,7 +90,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.25</version>
+            <version>1.7.30</version>
         </dependency>
     </dependencies>
 
@@ -175,8 +175,7 @@
                                 </filter>
                             </filters>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>com.amazonaws.samples.kaja.taxi.consumer.ProcessTaxiStream</mainClass>
                                 </transformer>
                             </transformers>
